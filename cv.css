@@ -1,0 +1,61 @@
+*{
+    font-family: "Times New Roman";
+    padding: auto;
+    margin: 2%;
+}
+.principal{
+    background: linear-gradient(to bottom,#b2dafa, white);
+}
+.class1{
+  
+  
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+
+}
+
+.class2{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+#i0,#i1, #i2{
+   
+    font-weight: bold;
+
+}
+#i01, #i02, #i03{
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+#img{
+    width: 200px;;
+    height:250px;
+    top: 50px;
+    left: 50px;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-content: center;
+}
+#Ititle{
+font-weight: bold;
+font-family:  cursive;
+color:#717D7E  ;
+border-bottom: 1px solid;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+}
+#Iname, #Imail{
+font:100;
+font-weight: bold;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+}
